@@ -1,0 +1,228 @@
+
+
+---
+ C++ INTERVIEW QUESTIONS: BASIC TO ADVANCED
+ 1. Data Types & Variables
+What are fundamental, derived, and user-defined data types in C++?
+How is type safety ensured in C++?
+Why does sizeof(char) always return 1?
+How does C++ handle signed vs unsigned integers?
+What is the difference between int, short, long, and long long?
+When would you use float over double?
+
+
+---
+ 2. Storage Classes
+What is the difference between auto, register, static, and extern?
+Why would you use a static variable inside a function?
+When is extern used across files?
+How does scope and lifetime differ for each storage class?
+
+
+---
+ 3. Header Files & Preprocessor Directives
+What happens when a header file is included multiple times?
+Why are include guards or #pragma once used?
+How does a macro differ from a const variable?
+What are the advantages and dangers of macros?
+When should you use #define vs const vs constexpr?
+
+
+---
+ 4. Compilation & Execution
+What happens during each stage of compilation: Preprocessing, Compilation, Assembling, Linking?
+How does a linker resolve external symbols?
+What is the difference between a compiler error and a linker error?
+Why do we separate compilation and linking?
+
+
+---
+ 5. Operators
+What is operator precedence and associativity?
+How does short-circuiting work in logical operators?
+When and why should operator overloading be used?
+How do overloaded operators maintain intuitive behavior?
+
+
+---
+ 6. Control Structures
+Conditional
+What is the difference between if-else and switch?
+When should switch be avoided?
+Why is break important in a switch block?
+
+Loops
+How does a do-while loop differ from a while loop?
+What are infinite loops? How to avoid them?
+How and when to use continue and break?
+Why prefer range-based for in modern C++?
+
+
+---
+ 7. Functions
+What is the purpose of inline functions? When are they ignored?
+What is recursion and when is it preferable?
+Why use default arguments in a function?
+How does function overloading work?
+What are the dangers of function recursion?
+
+
+---
+ 8. Pointers & References
+What is the difference between a pointer and a reference?
+How are pointers used with arrays and functions?
+Why is pointer arithmetic dangerous?
+What is a dangling pointer?
+When to use nullptr instead of NULL?
+
+
+---
+ 9. Arrays & Strings
+How do multidimensional arrays differ from arrays of pointers?
+What are advantages of std::string over C-style strings?
+How does memory layout of arrays differ from vectors?
+What are common string operations in C++ STL?
+
+
+---
+ 10. Structures and Unions
+What is the memory layout of a struct?
+Why do unions save memory? When should you use them?
+How are structs different from classes in C++?
+Can a structure contain a constructor?
+
+
+---
+ 11. Object-Oriented Programming
+Classes & Objects
+What is the difference between class and object?
+When should you use private vs public members?
+How does data hiding support security?
+
+Encapsulation & Abstraction
+Why is encapsulation essential in OOP?
+How do access specifiers support encapsulation?
+
+Inheritance
+What is the difference between single, multiple, and multilevel inheritance?
+How does constructor chaining work in inheritance?
+When to use virtual inheritance?
+
+Polymorphism
+How does runtime polymorphism work using virtual functions?
+Why is virtual destructor necessary in base class?
+What is the purpose of override and final?
+
+
+---
+ 12. Memory Management
+How does new/delete differ from malloc/free?
+What are memory leaks? How to prevent them?
+What is a smart pointer? Why use unique_ptr or shared_ptr?
+How does the stack differ from the heap in C++?
+
+
+---
+ 13. Constructors & Destructors
+What is a default constructor?
+What is a copy constructor? When is it called?
+How do constructors differ from regular functions?
+What happens if you don’t write a destructor?
+
+
+---
+ 14. Function Overloading & Overriding
+How does the compiler choose among overloaded functions?
+What are the rules for valid function overloading?
+When and why is overriding used?
+What is the role of virtual in overriding?
+
+
+---
+ 15. Access Specifiers
+What are private, protected, and public? How are they different in inheritance?
+Why is protected useful?
+
+
+---
+ 16. Exception Handling
+How are exceptions thrown and caught in C++?
+What are standard exceptions in C++?
+Why should destructors not throw exceptions?
+What is RAII and how does it help with exception safety?
+
+
+---
+ 17. File Handling
+How does ifstream, ofstream, and fstream differ?
+How to open a file in binary mode?
+What are file pointers and how are they manipulated?
+
+
+---
+ 18. C++ vs C
+How is C++ an extension of C?
+What OOP features are not present in C?
+Why is type safety better in C++?
+
+
+---
+ 19. Procedural vs OOP
+Why is OOP preferred for large projects?
+What are the key benefits of modularity and reusability in OOP?
+
+
+---
+ 20. Relationships: is-a, has-a, part-of
+What is an is-a relationship? Example?
+What is composition vs inheritance?
+When should you use containment?
+
+
+---
+ 21. STL - Standard Template Library
+What is a container? Name STL containers.
+When to use vector vs list?
+How do STL algorithms work with iterators?
+What is the use of map, set, unordered_map?
+
+
+---
+ 22. Templates
+What are function templates and class templates?
+When and why are templates used?
+What is template specialization?
+How are templates better than function overloading?
+
+
+---
+ 23. Type Casting
+What are static_cast, dynamic_cast, reinterpret_cast, const_cast?
+When is each type of casting appropriate?
+
+
+---
+ 24. Compiler, Linker, Loader
+What is the role of a compiler?
+What is an object file?
+How does the linker resolve external symbols?
+What are dynamic vs static linking?
+
+
+---
+ Scenario-Based C++ Interview Questions
+ Basic
+How would you reverse an array without using extra space?
+Write a function to find the largest element in an array.
+Simulate a simple calculator using switch-case.
+
+ Intermediate
+Design a class Employee that stores and prints salary with validation.
+Implement polymorphism using a base class Shape and derived classes Circle, Rectangle.
+Write code that reads a file and counts word frequency using map.
+
+ Advanced
+Create a template class Stack that supports push/pop.
+Design a smart pointer class from scratch (mimicking unique_ptr).
+Create a polymorphic object hierarchy and implement deep copying.
+
